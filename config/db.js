@@ -1,7 +1,7 @@
 require('dotenv').config()
 const mongoose = require('mongoose');
 
-let ConnectionString = "mongodb+srv://[username]:[password]@[hostname]/[Database]"
+let ConnectionString = "mongodb+srv://comp229:yRRqoIw3IIaNac6f@cluster1.bwtemr5.mongodb.net/?appName=Cluster1"
 
 const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
 
